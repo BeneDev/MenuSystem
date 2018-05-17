@@ -40,9 +40,9 @@ GameObject:
   - component: {fileID: 223031577557658068}
   - component: {fileID: 114565828048878780}
   - component: {fileID: 114954693537284408}
-  - component: {fileID: 114860169948436410}
+  - component: {fileID: 114288932944332996}
   m_Layer: 5
-  m_Name: SimpleMenu
+  m_Name: PauseMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -173,7 +173,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114860169948436410}
+      - m_Target: {fileID: 0}
         m_MethodName: OnBackPressed
         m_Mode: 1
         m_Arguments:
@@ -246,6 +246,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Button
+--- !u!114 &114288932944332996
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1188873824555940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6cfa7fd152d1cd42afe8dd582543209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyWhenClosed: 1
+  disableMenusUnderneath: 1
 --- !u!114 &114421140996753236
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -285,7 +298,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114860169948436410}
+      - m_Target: {fileID: 0}
         m_MethodName: OpenOptions
         m_Mode: 1
         m_Arguments:
@@ -439,20 +452,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Simple Menu
---- !u!114 &114860169948436410
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1188873824555940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6cfa7fd152d1cd42afe8dd582543209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destroyWhenClosed: 1
-  disableMenusUnderneath: 1
-  button: {fileID: 114077144167621700}
 --- !u!114 &114954693537284408
 MonoBehaviour:
   m_ObjectHideFlags: 1

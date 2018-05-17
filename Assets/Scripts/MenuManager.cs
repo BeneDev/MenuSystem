@@ -23,7 +23,7 @@ public class MenuManager : Singleton<MenuManager> {
             }
             else
             {
-                SimpleMenu.Show();
+                PauseMenu.Show();
             }
         }
     }
