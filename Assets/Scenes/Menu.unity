@@ -218,7 +218,7 @@ Camera:
   m_GameObject: {fileID: 1327217698}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 2
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -259,3 +259,56 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2100496564
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 114468311745126812, guid: 6d53c17c5295fe54ba4f801a02bd71c7,
+        type: 2}
+      propertyPath: menuPrefabs.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4955673080033444, guid: 6d53c17c5295fe54ba4f801a02bd71c7, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4955673080033444, guid: 6d53c17c5295fe54ba4f801a02bd71c7, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4955673080033444, guid: 6d53c17c5295fe54ba4f801a02bd71c7, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4955673080033444, guid: 6d53c17c5295fe54ba4f801a02bd71c7, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4955673080033444, guid: 6d53c17c5295fe54ba4f801a02bd71c7, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4955673080033444, guid: 6d53c17c5295fe54ba4f801a02bd71c7, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4955673080033444, guid: 6d53c17c5295fe54ba4f801a02bd71c7, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4955673080033444, guid: 6d53c17c5295fe54ba4f801a02bd71c7, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114468311745126812, guid: 6d53c17c5295fe54ba4f801a02bd71c7,
+        type: 2}
+      propertyPath: menuPrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 114860169948436410, guid: 9cf412a2c2ee3864c95b200289f3c846,
+        type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6d53c17c5295fe54ba4f801a02bd71c7, type: 2}
+  m_IsPrefabParent: 0

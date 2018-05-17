@@ -13,7 +13,20 @@ public class MenuManager : Singleton<MenuManager> {
 
     #region Unity Messages
 
-
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            if(menuStack.Count > 0)
+            {
+                menuStack.Peek().OnBackPressed();
+            }
+            else
+            {
+                SimpleMenu.Show();
+            }
+        }
+    }
 
     #endregion
 
